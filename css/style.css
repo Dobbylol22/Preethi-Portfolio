@@ -400,6 +400,15 @@ background-position:center;
 }
 
 /* form */
+#certificate {
+    background: url('../img/Des (2).png');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
 #contact {
     background: url('../img/Des.png');
     background-repeat:no-repeat;
