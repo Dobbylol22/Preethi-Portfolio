@@ -278,7 +278,7 @@ background-position:center;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .two-col-grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width:768px) {
     .three-col-grid {
@@ -409,6 +409,21 @@ background-position:center;
     background-size:cover;
     background-position:center;
 }
+.card-1 {  /*Design the card*/
+    display: flex;
+   flex-direction: column;
+   border-radius: var(--border-radius-lg);
+   background-color: rgba(0, 0, 0, 0.482);
+   cursor: pointer;
+   overflow: hidden;
+   margin-bottom: 10px;
+   transition: max-height 0.4s ease;
+   flex-wrap: wrap;
+   width: 400px;
+ }
+
+
+
 #contact {
     background: url('../img/Des.png');
     background-repeat:no-repeat;
@@ -497,3 +512,11 @@ footer .container {
     cursor: pointer;
     color: aliceblue;
 } 
+
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align horizontally */
+    justify-content: center; /* Center align vertically (optional) */
+    text-align: center; 
+}
