@@ -26,11 +26,11 @@ document.getElementById('read-more').addEventListener('click', () =>{
     
     if (extracontent.style.display === 'none' || extracontent.style.display === '') {
         extracontent.style.display = 'block'
-        read.textContent = 'Read Less'
+        read.textContent = 'READ LESS'
     }
     else {
         extracontent.style.display = 'none'
-        read.textContent = 'Read More'
+        read.textContent = 'READ MORE'
     }
     card.style.height = 'auto'
     card.offsetHeight
@@ -45,11 +45,11 @@ document.getElementById('read-more1').addEventListener('click', () =>{
     
     if (extracontent.style.display === 'none' || extracontent.style.display === '') {
         extracontent.style.display = 'block'
-        read.textContent = 'Read Less'
+        read.textContent = 'READ LESS'
     }
     else {
         extracontent.style.display = 'none'
-        read.textContent = 'Read More'
+        read.textContent = 'READ MORE'
     }
     card.style.height = 'auto'
     card.offsetHeight
