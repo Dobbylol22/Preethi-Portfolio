@@ -339,13 +339,13 @@ background-position:center;
    display: flex;
    flex-direction: column;
    border-radius: var(--border-radius-lg);
-   background-color: rgba(0, 0, 0, 0.588);
+   background-color: rgba(0, 0, 0, 0.793);
    cursor: pointer;
    overflow: hidden;
    margin-bottom: 10px;
    transition: max-height 0.4s ease;
    flex-wrap: wrap;
-   width: 350px;
+   width: 460px;
 }
 
 .card-padding {
@@ -414,7 +414,7 @@ background-position:center;
     display: flex;
    flex-direction: column;
    border-radius: var(--border-radius-lg);
-   background-color: rgba(0, 0, 0, 0.482);
+   background-color: rgba(0, 0, 0, 0.797);
    cursor: pointer;
    overflow: hidden;
    margin-bottom: 10px;
