@@ -275,17 +275,17 @@ background-position:center;
 }
 
 .three-col-grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .two-col-grid {
     grid-template-columns: 1fr 1fr;
 }
 @media screen and (max-width:768px) {
     .three-col-grid {
-        grid-template-columns: 1fr 1fr; /*responsive card, as the screen size reduces to 768px, it will fit the cards.*/
+        grid-template-columns: 1fr; /*responsive card, as the screen size reduces to 768px, it will fit the cards.*/
     }
     .two-col-grid {
-        grid-template-columns: 1fr 1fr; /*responsive card, as the screen size reduces to 768px, it will fit the cards.*/
+        grid-template-columns: 1fr; /*responsive card, as the screen size reduces to 768px, it will fit the cards.*/
     }
 }
 @media screen and (max-width:576px) {
